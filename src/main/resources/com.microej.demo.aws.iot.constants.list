@@ -1,0 +1,29 @@
+#
+# Copyright 2021-2022 MicroEJ Corp. All rights reserved.
+# Use of this source code is governed by a BSD-style license that can be found with this software.
+#
+
+###################################################
+# AWS IoT Broker Configuration
+###################################################
+aws.port=8883
+aws.url=a31i5tkhbu6syw-ats.iot.eu-west-3.amazonaws.com
+aws.trusted.server.certificate1=/certificates/trusted/SFSRootCAG2.pem
+aws.trusted.server.certificate2=/certificates/trusted/AmazonRootCA3.pem
+
+
+###################################################
+# Device Configuration
+###################################################
+aws.root.certificate=/certificates/device/rootCA.pem
+aws.device.certificate=/certificates/device/deviceCert.crt
+aws.device.key=/certificates/device/deviceCert.der
+aws.device.keystore.password=awsdemo
+aws.thing.name=Thermostat-1
+
+###################################################
+# MicroPaho MQTT client configuration 
+###################################################
+#micropaho.debug=true
+#micropaho.server.check=true
+#micropaho.thread.priority=5

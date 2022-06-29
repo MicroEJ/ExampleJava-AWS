@@ -1,1 +1,5 @@
 com.microej.demo.aws.iot/src-adpgenerated/
+/bin/
+target~
+com.microej.demo.aws.iot.Main
+wifi
